@@ -1,0 +1,208 @@
+{
+  "mod_elements": [
+    {
+      "name": "ExoArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exo_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DemoItemRightclicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demo_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemoItem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demo_item"
+    },
+    {
+      "name": "MilitarenTab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaren_tab"
+    },
+    {
+      "name": "ExoArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exo_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExoArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exo_armor_body_tick_event",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TestblockParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testblock_particle_spawning_condition",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "OverlayTest",
+      "type": "overlay",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlay_test"
+    },
+    {
+      "name": "GUITest",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_test"
+    },
+    {
+      "name": "MetallicCircuit",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metallic_circuit"
+    },
+    {
+      "name": "Metalliccircuitrecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalliccircuitrecipe"
+    },
+    {
+      "name": "ExoArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exo_armor_body_recipe"
+    },
+    {
+      "name": "Exohelmetrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exohelmetrecipe"
+    },
+    {
+      "name": "Exobootsrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exobootsrecipe"
+    },
+    {
+      "name": "ExoLeggings",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exo_leggings"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.militaren.exo_armor_leggings": "ExoArmor Leggings",
+      "itemGroup.tabmilitaren_tab": "Militaren",
+      "item.militaren.demo_item": "Demo Item",
+      "item.militaren.exo_armor_boots": "ExoArmor Boots",
+      "item.militaren.exo_armor_chestplate": "ExoArmor Body",
+      "item.militaren.exo_armor_helmet": "ExoArmor Helmet",
+      "item.militaren.metallic_circuit": "Metallic Circuit"
+    },
+    "es_es": {
+      "item.militaren.exo_armor_leggings": "Pantalones Exoarmadura",
+      "itemGroup.tabmilitaren_tab": "Militaren",
+      "item.militaren.demo_item": "Demo Item",
+      "item.militaren.exo_armor_boots": "Botas Exoarmadura",
+      "item.militaren.exo_armor_chestplate": "Pechera Exoarmadura",
+      "item.militaren.exo_armor_helmet": "Casco Exoarmadura",
+      "item.militaren.metallic_circuit": "Circuito metálico"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "militaren",
+    "modName": "MilitaRen",
+    "version": "1.0.0",
+    "author": "kyler, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.militaren",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
